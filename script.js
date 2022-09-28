@@ -2,7 +2,8 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 canvas.width = 900;
 canvas.height = 600;
-const cellSize = 100;
+//수정 100 -> 1000
+const cellSize = 1000;
 const cellGap = 3;
 const gameGrid = [];
 const selectedDefender = 1;
